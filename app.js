@@ -31,10 +31,9 @@ const bot = linebot({
   channelSecret: process.env.CHANNEL_SECRET,
   channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN
 })
-const linebotParser = bot.parser()
+const linebotParser = bot.parser();
 
 const blah = ['怎麼還沒有好???', '不要龜龜毛毛的趕快做決定!', '一天是要問幾次?!', '冰箱的剩菜回去吃一吃好了~', '快一點, 我快昏倒了T^T', '廢話不多說, 來去吃飯了!', '我覺得每一家都很好吃啊 :)', '什麼?! 你梭什麼我聽不懂?!', '不要再說了，我肚子好餓！', '你的對話要提到"吃"這個字才會回答喔!', '你的提問要有"吃"這個字啦!']
-const blahI = randomPick(blah.length)
 
 
 bot.on('message', function (event) { // event.message.text是使用者傳給bot的訊息
@@ -62,7 +61,7 @@ bot.on('message', function (event) { // event.message.text是使用者傳給bot�
     })
 
 })
-
+app.post('/linewebhook', linebotParser);
 
 // new get 
 app.get('/diners/line', (req, res) => {
@@ -149,7 +148,6 @@ function randomPick(length) {
   return sample
 }
 
-app.post('/', linebotParser)
 
 // 用自己的server就這麼寫, 否則用bot.listen
 app.listen(process.env.PORT || 3000, () => {
