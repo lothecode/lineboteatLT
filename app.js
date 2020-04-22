@@ -149,7 +149,7 @@ function randomPick(length) {
   return sample
 }
 
-app.post('/linewebhook', linebotParser)
+app.post('/', linebotParser)
 
 // 用自己的server就這麼寫, 否則用bot.listen
 app.listen(process.env.PORT || 3000, () => {
