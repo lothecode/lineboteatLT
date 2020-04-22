@@ -1,0 +1,284 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "洋壽司",
+      "category": "外帶",
+      "description": "週一 & 二休, 菜市場裡, 要早一點去買",
+      "address": "羅東民生市場內",
+      "phone": "0933 772 369"
+    },
+    {
+      "id": 2,
+      "name": "八王子",
+      "category": "簡餐定食",
+      "description": "週二 & 三休, 之前和美美一起吃的",
+      "address": "宜蘭市中華路167號",
+      "phone": "03 931 2090"
+    },
+    {
+      "id": 3,
+      "name": "春不老驛站牛肉麵",
+      "category": "麵",
+      "description": "週一 & 二休, 冬山車站那邊",
+      "address": "冬山鄉冬山路三段186號2樓",
+      "phone": "03 959 0599"
+    },
+    {
+      "id": 4,
+      "name": "桃花源牛肉麵 ",
+      "category": "麵",
+      "description": "梅花湖那邊",
+      "address": "冬山鄉梅林路1042號",
+      "phone": "03 961 2686"
+    },
+    {
+      "id": 5,
+      "name": "霸味薑母鴨",
+      "category": "薑母鴨, 熱炒",
+      "description": "光榮路那間",
+      "address": "羅東鎮光榮路423號",
+      "phone": "03 956 8228"
+    },
+    {
+      "id": 6,
+      "name": "ㄧ佳村",
+      "category": "健康養生料理",
+      "description": "仁山苗圃附近",
+      "address": "冬山鄉中城二路58巷11號11 號",
+      "phone": "03 958 8852"
+    },
+    {
+      "id": 7,
+      "name": "東之本",
+      "category": "日式家常料理",
+      "description": "有做便當外帶, 走路可到",
+      "address": "羅東鎮中山西街222號",
+      "phone": "03 9531935"
+    },
+    {
+      "id": 8,
+      "name": "清香小吃部",
+      "category": "熱炒",
+      "description": "週二休, 位子少要早點去",
+      "address": "羅東鎮中華路21號",
+      "phone": "03 956 9017"
+    },
+    {
+      "id": 9,
+      "name": "鴨肉送",
+      "category": "麵+小菜",
+      "description": "週二休, 位子不多",
+      "address": "羅東鎮中山西街113-1號",
+      "phone": "03 954 2481"
+    },
+    {
+      "id": 10,
+      "name": "崔記小館",
+      "category": "麵, 餅, 湯包",
+      "description": "週一休, 停車不太方便",
+      "address": "羅東鎮林森路153號",
+      "phone": "03 956 4816"
+    },
+    {
+      "id": 11,
+      "name": "隨圓牛排",
+      "category": "牛排",
+      "description": "走路可到",
+      "address": "羅東鎮純精路一段217號",
+      "phone": "03 961 6755"
+    },
+    {
+      "id": 12,
+      "name": "壹武壹食",
+      "category": "簡餐定食",
+      "description": "走路可到, 有做外帶便當",
+      "address": "羅東鎮南門路152號",
+      "phone": "03 955 8966"
+    },
+    {
+      "id": 13,
+      "name": "寿福美墨小食部",
+      "category": "漢堡",
+      "description": "週一休, 走路可到, 可外帶",
+      "address": "羅東鎮成功街160巷7號",
+      "phone": "03 951 0953"
+    },
+    {
+      "id": 14,
+      "name": "金門餐廳",
+      "category": "合菜餐廳",
+      "description": "走路可到, 有停車場",
+      "address": "羅東鎮純精路二段187號",
+      "phone": "03 951 5823"
+    },
+    {
+      "id": 15,
+      "name": "味芳海鮮園",
+      "category": "合菜餐廳",
+      "description": "服務可以再加強",
+      "address": "羅東鎮民權路199巷1號",
+      "phone": "03 954 1042"
+    },
+    {
+      "id": 16,
+      "name": "八味",
+      "category": "便當",
+      "description": "僅便當",
+      "address": "羅東鎮四育路151號",
+      "phone": "03 961 3468"
+    },
+    {
+      "id": 17,
+      "name": "威尼斯義大利麵工坊",
+      "category": "義大利麵",
+      "description": "動作稍慢",
+      "address": "羅東鎮四育路62號",
+      "phone": "03 961 3855"
+    },
+    {
+      "id": 18,
+      "name": "武藏坊",
+      "category": "日式料理",
+      "description": "週三休, 較貴, 有停車場",
+      "address": "羅東鎮公正路130號",
+      "phone": "03 955 7878"
+    },
+    {
+      "id": 19,
+      "name": "八分煲",
+      "category": "簡餐",
+      "description": "週二休, 動作稍慢",
+      "address": "羅東鎮北成路一段166號",
+      "phone": "03 961 2898"
+    },
+    {
+      "id": 20,
+      "name": "法國廚房",
+      "category": "法式料理",
+      "description": "週一休, 動作稍慢, 崔記附近",
+      "address": "羅東鎮林森路167號",
+      "phone": "03 953 4101"
+    },
+    {
+      "id": 21,
+      "name": "鱷魚餐館 ",
+      "category": "合菜餐廳",
+      "description": "合菜, 稍貴, 後面有停車位置",
+      "address": "冬山鄉冬山路三段696號",
+      "phone": "03 957 2950"
+    },
+    {
+      "id": 22,
+      "name": "沐森食藝",
+      "category": "簡餐, 咖哩飯 ",
+      "description": "週一休, 在鱷魚餐館附近,後面有停車位置",
+      "address": "冬山鄉冬山路三段690號",
+      "phone": "03 957 7758"
+    },
+    {
+      "id": 23,
+      "name": "CoCo壱番屋",
+      "category": "咖哩定食",
+      "description": "新月廣場4F",
+      "address": "宜蘭市民權路二段38巷6號",
+      "phone": "03 932 8594"
+    },
+    {
+      "id": 24,
+      "name": "勝博殿",
+      "category": "炸豬排定食",
+      "description": "新月廣場4F",
+      "address": "宜蘭市民權路二段38巷6號",
+      "phone": "03 936 7398"
+    },
+    {
+      "id": 25,
+      "name": "瓦城",
+      "category": "泰式料理",
+      "description": "新月廣場4F, 合菜",
+      "address": "宜蘭市民權路二段38巷6號",
+      "phone": "03 931 5522"
+    },
+    {
+      "id": 26,
+      "name": "大阪王將",
+      "category": "煎餃",
+      "description": "新月廣場4F",
+      "address": "宜蘭市民權路二段38巷6號",
+      "phone": "03 933 0589"
+    },
+    {
+      "id": 27,
+      "name": "古拉爵",
+      "category": "義式",
+      "description": "新月廣場4F, pizza, 義大利麵, 漢堡",
+      "address": "宜蘭市民權路二段38巷6號",
+      "phone": "03 931 4810"
+    },
+    {
+      "id": 28,
+      "name": "西堤",
+      "category": "套餐",
+      "description": "新月廣場4F, 生日當月消費4客套餐，壽星享精美好禮乙份",
+      "address": "宜蘭市民權路二段38巷6號",
+      "phone": "03 931 2725"
+    },
+    {
+      "id": 29,
+      "name": "羅東美食雞房料理麻油雞",
+      "category": "路邊小吃",
+      "description": "走路可到, 晚上5-11點",
+      "address": "羅東鎮南門路156號",
+      "phone": "0900 636 139"
+    },
+    {
+      "id": 30,
+      "name": "高僑餐飲",
+      "category": "熱炒",
+      "description": "礁溪, 100元熱炒",
+      "address": "頭城鎮青雲路一段26號",
+      "phone": "03 987 1686"
+    },
+    {
+      "id": 31,
+      "name": "鵝肉郎",
+      "category": "熱炒",
+      "description": "週一休, 礁溪",
+      "address": "礁溪鄉信義路29號1樓",
+      "phone": "03 988 4438"
+    },
+    {
+      "id": 32,
+      "name": "富美活海鮮",
+      "category": "熱炒",
+      "description": "週三休, 南方澳",
+      "address": "蘇澳鎮海邊路111號",
+      "phone": "03 996 2807"
+    },
+    {
+      "id": 33,
+      "name": "味珍活海鮮",
+      "category": "熱炒",
+      "description": "週四休, 南方澳",
+      "address": "蘇澳鎮漁港路70號",
+      "phone": "03 995 2233"
+    },
+    {
+      "id": 34,
+      "name": "海珍活海鮮",
+      "category": "熱炒",
+      "description": "南方澳",
+      "address": "蘇澳鎮漁港路61號",
+      "phone": "03 996 7688"
+    },
+    {
+      "id": 35,
+      "name": "SLOBBER囍伯美式漢堡",
+      "category": "漢堡",
+      "description": "週一休, 宜蘭市",
+      "address": "宜蘭市舊城東路40號",
+      "phone": "03 936 1682"
+    }
+  ]
+}
