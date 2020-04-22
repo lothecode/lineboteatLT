@@ -44,6 +44,7 @@ bot.on('message', function (event) { // event.message.text是使用者傳給bot�
     .exec((err, diners) => {
       if (err) return console.error(err)
       let userSay = event.message.text
+      console.log(userSay)
       let reply = blah[randomPick(blah.length)]
       if (userSay == undefined) {
         reply = blah[randomPick(blah.length)]
