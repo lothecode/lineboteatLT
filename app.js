@@ -63,8 +63,6 @@ bot.on('message', function (event) { // event.message.text是使用者傳給bot�
 
 })
 
-app.post('/', linebotParser)
-
 
 // new get 
 app.get('/diners/line', (req, res) => {
@@ -150,6 +148,8 @@ function randomPick(length) {
   let sample = Math.floor(Math.random() * length)
   return sample
 }
+
+app.post('/linewebhook', linebotParser)
 
 // 用自己的server就這麼寫, 否則用bot.listen
 app.listen(process.env.PORT || 3000, () => {
