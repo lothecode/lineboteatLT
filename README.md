@@ -1,7 +1,7 @@
 ## This is a simple Line ChatBot app will provide suggestion for what to eat : 出去吃什麼好呢?
 
 ## QR code
-![image]()
+![image](https://github.com/lothecode/lineboteatLT/blob/master/QRcode.png?raw=true)
 
 
 ## Features
