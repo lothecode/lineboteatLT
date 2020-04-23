@@ -6,7 +6,7 @@
 </div>
 
 <table class="table mb-5">
-  <thead class="thead-dark">
+  <thead class="table-primary">
     <tr>
       <th scope="col">類別</th>
       <th scope="col">名稱</th>
@@ -17,37 +17,28 @@
     </tr>
   </thead>
 
-  <tbody class="col-md-12 m-auto">
+  <tbody>
     {{#each diners}}
     <tr>
-      <td class="align-middle amount">
+      <td class="tcat">
         <h5>{{{this.category}}}</h5>
       </td>
-      <td>
-        <div class="colum pt-1">
-          <h5>{{{this.name}}}</h5>
-        </div>
+      <td class="tname">
+        <h5>{{{this.name}}}</h5>
       </td>
-      <td>
-        <div class="colum pt-1">
-          <p class="date my-1">{{{this.description}}}</p>
-        </div>
+      <td class="tdes">
+        <h5 class="date my-1">{{{this.description}}}</h5>
       </td>
-      <td>
-        <div class="colum pt-1">
-          <p class="date my-1">{{{this.address}}}</p>
-        </div>
+      <td class="tadd">
+        <p class="date my-1">{{{this.address}}}</p>
       </td>
-      <td>
-        <div class="colum pt-1">
-          <p class="date my-1">{{{this.phone}}}</p>
-        </div>
+      <td class="tph">
+        <h5 class="date my-1">{{{this.phone}}}</h5>
       </td>
-
-      <td class="d-flex justify-content-end pt-4">
-        <a href="/diners/{{{this._id}}}/edit" class="btn btn-success my-1 mr-1">修改</a>
-        <form action="/diners/{{{this._id}}}/delete?_method=DELETE" method="POST" style="display: inline;">
-          <button type="submit" class="btn btn-danger my-1">刪除</button>
+      <td class="d-flex justify-content-end mx-0 px-0">
+        <a href="/diners/{{{this._id}}}/edit" class="btn btn-success m-1 p-1 ">修改</a>
+        <form action="/diners/{{{this._id}}}/delete?_method=DELETE" method="POST">
+          <button type="submit" class="btn btn-danger p-1 m-1">刪除</button>
         </form>
       </td>
     </tr>
